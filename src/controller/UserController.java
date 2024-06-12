@@ -13,6 +13,16 @@ public class UserController {
         }catch (Exception e){
             System.out.println(e);
         }
+        try{
+            userInterface.display();
+
+        }catch (Exception e){
+            System.out.println(e);
+        }
+
+        userInterface.update();
+        userInterface.display();
+        userInterface.delete();
         userInterface.display();
 
     }
